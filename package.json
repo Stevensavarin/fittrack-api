@@ -1,0 +1,52 @@
+{
+  "name": "fittrack-api",
+  "version": "1.0.0",
+  "description": "FitTrack API - CRUD con Express, MongoDB, JWT y OAuth GitHub",
+  "main": "server.js",
+  "scripts": {
+    "start": "node swagger.js",
+    "dev": "nodemon server.js",
+    "swagger": "node swagger.js"
+  },
+  "keywords": [
+    "express",
+    "nodejs",
+    "mongodb",
+    "swagger",
+    "oauth",
+    "jwt",
+    "crud",
+    "api"
+  ],
+  "author": "Steven Savarin",
+  "license": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevensavarin/fittrack-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Stevensavarin/fittrack-api/issues"
+  },
+  "homepage": "https://github.com/Stevensavarin/fittrack-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.0",
+    "express": "^4.18.2",
+    "express-async-errors": "^3.1.1",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.0.0",
+    "morgan": "^1.10.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "swagger-autogen": "^2.23.5",
+    "swagger-ui-express": "^5.0.0",
+    "validatorjs": "^3.22.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
+
+
