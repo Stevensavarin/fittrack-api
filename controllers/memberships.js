@@ -70,7 +70,6 @@ const updateMembership = async (req, res) => {
             price: req.body.price,
             duration: req.body.duration,
             benefits: req.body.benefits,
-            isActive: req.body.isActive
         };
 
         const db = mongodb.getDatabase().db();
