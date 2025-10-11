@@ -7,8 +7,10 @@ router.use('/memberships', require('./memberships'));
 router.use('/bookings', require('./bookings'));
 router.use('/', require('./swagger'));
 
-router.get('/', (req, res) => {
-    res.send('Welcome to Fit-Track API');});
+// router.get('/', (req, res) => {
+    //#swagger.tags=['Hello World]
+    //res.send('Hello World');
+//});
 
 router.get('/login', passport.authenticate('github'), (req, res) => {});
 
