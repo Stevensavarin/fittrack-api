@@ -431,9 +431,6 @@
                 },
                 "benefits": {
                   "example": "any"
-                },
-                "isActive": {
-                  "example": "any"
                 }
               }
             }
@@ -507,10 +504,8 @@
                 },
                 "benefits": {
                   "example": "any"
-                },
-                "isActive": {
-                  "example": "any"
                 }
+
               }
             }
           }
